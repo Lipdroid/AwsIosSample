@@ -41,5 +41,42 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>AWS</key>
+    <dict>
+        <key>IdentityManager</key>
+        <dict>
+            <key>Default</key>
+            <dict/>
+        </dict>
+        <key>DynamoDBObjectMapper</key>
+        <dict>
+            <key>Default</key>
+            <dict>
+                <key>Region</key>
+                <string>us-east-1</string>
+            </dict>
+        </dict>
+        <key>CredentialsProvider</key>
+        <dict>
+            <key>CognitoIdentity</key>
+            <dict>
+                <key>Default</key>
+                <dict>
+                    <key>PoolId</key>
+                    <string>us-east-1:ed1245b8-0e5d-46c5-8062-2bd37871c4b1</string>
+                    <key>Region</key>
+                    <string>us-east-1</string>
+                </dict>
+            </dict>
+        </dict>
+        <key>MobileHub</key>
+        <dict>
+            <key>ProjectClientId</key>
+            <string>MobileHub 3c40f453-1502-4b3b-aba9-49a0adbd29fd aws-my-sample-app-ios-swift-v0.12</string>
+        </dict>
+    </dict>
+
 </dict>
+
 </plist>
